@@ -1,5 +1,5 @@
 function checkgrade(evt) {
-  var grade =parseFloat(evt.currentTarget.value);
+  let grade =parseFloat(evt.currentTarget.value);
 
   if (grade > 100 || grade < 0) {
     console.log("Wrong value")
